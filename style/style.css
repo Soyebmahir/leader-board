@@ -5,7 +5,16 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
 }
-
+main {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 870px;
+}
+.tittle {
+  color: #562eff;
+}
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
