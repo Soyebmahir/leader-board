@@ -12,15 +12,21 @@ main {
 .container {
   width: 870px;
   background-color: #ffffff;
+  padding: 30px;
+}
+.top-players {
+  margin-bottom: 30px;
 }
 .section-tittle {
   color: #562eff;
+  margin-top: 3px;
+  font-size: 24px;
 }
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 30px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-left: 30px;
 }
 .player {
@@ -30,4 +36,24 @@ main {
 .player img {
   height: 53px;
   width: 53px;
+}
+.player-name {
+  margin-left: 16px;
+  font-size: 18px;
+}
+.break {
+  width: 807px;
+  height: 0px;
+  left: 315px;
+  top: 410px;
+
+  border: 1px solid #d1d1d1;
+}
+
+/* ..........
+top blogs styles 
+.........  */
+.blog .thumbnail img {
+  width: 177px;
+  height: 117px;
 }
